@@ -1,2 +1,5 @@
 # vim swaps
 .*.sw?
+
+# distribution binaries
+dist/

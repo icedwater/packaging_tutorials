@@ -1,0 +1,22 @@
+[project]
+name = "example_package_xyz-uncontactable"
+version = "0.0.1"
+authors = [
+    { name = "XYZ Author", email = "uncontactable_xyz@gmail.com" },
+]
+description = "A small example package."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/icedwater/packaging_tutorials"
+"Bug Tracker" = "https://github.com/icedwater/packaging_tutorials/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
